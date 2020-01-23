@@ -39,7 +39,7 @@ export class StageWrapper {
   }
   removeElement(element: HTMLElement) {
     if (!this.stage) { return; }
-    this.stage.removeElement(element);
+    this.stage.removeElement(element.id);
   }
   center(elements: HTMLElement[]) {
     if (!this.stage) { return; }
